@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savannah Moller Portal | DWDD1720</title>
+
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- OPEN GRAPH TAGS -->
+    <meta property="og:title" content="Savannah Moller Portal | DWDD1720">
+    <meta property="og:description"
+        content="This site showcases my assignments, projects, and coursework for DWDD1720.">
+    <meta property="og:image" content="https://savmoller7.github.io/1720-portal/images/opengraph.jpg">
+    <meta property="og:url" content="https://savmoller7.github.io/1720-portal/">
+    <meta property="og:logo" content="https://savmoller7.github.io/1720-portal/images/house-heart-fill.svg">
+    <meta property="og:type" content="website">
+
+
+
+    <!-- FAV ICON LINKS -->
+    <link rel="icon" type="image/png" href="/1720-pokemongo/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/1720-pokemongo/favicon.svg" />
+    <link rel="shortcut icon" href="/1720-pokemongo/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/1720-pokemongo/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="/1720-pokemongo/site.webmanifest" />
+
+
+
+
+    <!-- SCRIPTS -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/year.js" defer></script>
+
+
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.svg" alt="Site Logo" width="16" height="16">
+        <span>Catch & Explore</span>
+        <button id="hamburger" class="hamburger" aria-label="Nav Link Button"></button>
+    </header>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#">Home Page</a></li>
+            <li class="active"><a href="#">About</a></li>
+            <li><a href="#">Other Page</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>About</h1>
+
+        <picture class="hero">
+            <source media="(max-width: 610px)" srcset="images/hero-small-610.webp">
+            <source media="(max-width: 900px)" srcset="images/hero-medium-900.webp">
+            <img src="images/hero-large-1200.webp" alt="Pokemon Go">
+            <a href="">Ask to Join</a>
+        </picture>
+
+        <video controls poster="media/poster.webp" width="1280" height="720">
+            <source> src="media/" type="video/mp4" />
+            <source> src="media/" type="video/webm" />
+            <track label="English" kind="subtitles" srclang="en" src="media/" default />
+            <track label="Español" kind="subtitles" srclang="es" src="media/" />
+        </video>
+
+        <details>
+            <summary>Video Transcript</summary>
+            <p>This is where I am going to put the transcript for the video.</p>
+        </details>
+
+
+
+    </main>
+
+
+
+
+
+    <footer>
+        <section class="social">
+            <a href="https://www.youtube.com/@savannahmoller5223" target="_blank"><img src="images/icon-youtube.svg"
+                    alt="YouTube Icon" width="16" height="16"></a>
+            <a href="https://github.com/savmoller7" target="_blank"><img src="images/icon-github.svg" alt="GitHub Icon"
+                    width="16" height="16"></a>
+            <a href="https://www.linkedin.com/in/savannah-moller-494623241/" target="_blank"><img
+                    src="images/icon-linkedin.svg" alt="LinkedIn Icon" width="16" height="16"></a>
+            <a href="https://www.facebook.com/savvym000/" target="_blank"><img src="images/icon-facebook.svg"
+                    alt="Facebook Icon" width="16" height="16"></a>
+        </section>
+        <p>&copy; <span id="currentyear"></span> &bull; Savannah Moller &bull; DWDD1720</p>
+    </footer>
+
+
+</body>
+
+</html>
